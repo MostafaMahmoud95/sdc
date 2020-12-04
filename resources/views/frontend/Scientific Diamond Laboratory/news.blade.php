@@ -27,7 +27,7 @@
                         <div class="col-lg-4 col-md-12">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top"
-                                     src="{{URL::to('public/news/Scientific Diamond Lab/'.$one_news->image)}}"
+                                     src="{{URL::to('news/Scientific Diamond Lab/'.$one_news->image)}}"
                                      style="height: 190px; width: 286px;"
                                      alt="">
                                 <div class="news-date-day">

@@ -25,7 +25,7 @@
                         <div class="col-lg-4 col-md-12">
                             <a href="{{url('sdc/jobs/'.$job->slug)}}" style="display: flex; flex-direction: column;">
                                 <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top jobs-image" src="{{URL::to('public/jobs/'.$job->image)}}"
+                                    <img class="card-img-top jobs-image" src="{{URL::to('jobs/'.$job->image)}}"
                                          alt="">
                                     <div class="card-body">
                                         <h5 class="card-title">@if(App::isLocale('en')) {{$job->title_en}} @else {{$job->title_ar}} @endif</h5>

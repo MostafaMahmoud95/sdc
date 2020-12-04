@@ -64,7 +64,7 @@
                             <td>{{$partner->title_en}}</td>
                             <td>{{$partner->title_ar}}</td>
                             <td>
-                                <img src="{{URL::to('public/partners/'.$partner->department->title_en.'/'.$partner->image)}}"
+                                <img src="{{URL::to('partners/'.$partner->department->title_en.'/'.$partner->image)}}"
                                      style="height: 100px; width: 100px;"></td>
                             <td>{{$partner->link}}</td>
                             <td style="text-align: center;"><a href="{{route('partners.show',$partner->id)}}"

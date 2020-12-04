@@ -42,19 +42,19 @@
                     <div style="display: flex; flex-direction: column-reverse;">
 
                         <div id='thumb_container' style="display: flex; flex-direction: row;">
-                            <img src='{{URL::to('public/products/Scientific Diamond Lab/'.$product->image)}}'
+                            <img src='{{URL::to('products/Scientific Diamond Lab/'.$product->image)}}'
                                  alt='' onClick='sendimg(this);'>
                             @if($gallery)
 
                                 @foreach($gallery as $one_row)
-                                    <img src='{{URL::to('public/productsgalleries/'.$product->id.'/'.$one_row->image)}}'
+                                    <img src='{{URL::to('productsgalleries/'.$product->id.'/'.$one_row->image)}}'
                                          alt='' onClick='sendimg(this);'>
                                 @endforeach
                             @endif
                         </div>
                         <div class="col-md-9" id='main_image'>
                             <img id='mainimg'
-                                 src='{{URL::to('public/products/Scientific Diamond Lab/'.$product->image)}}'
+                                 src='{{URL::to('products/Scientific Diamond Lab/'.$product->image)}}'
                                  alt=''>
                         </div>
                     </div>

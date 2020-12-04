@@ -6,23 +6,23 @@
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
 
-    <link rel="shortcut icon" href="{{asset('public/admin_assets/images/favicon_1.ico')}}">
+    <link rel="shortcut icon" href="{{asset('admin_assets/images/favicon_1.ico')}}">
 
     <title>Scientific Diamond Company Dashboard</title>
 
     <!--Morris Chart CSS -->
-    <link rel="stylesheet" href="{{asset('public/admin_assets/plugins/morris/morris.css')}}">
-    <link href=" {{asset('public/admin_assets/plugins/bootstrap-sweetalert/sweet-alert.css')}}" rel="stylesheet"
+    <link rel="stylesheet" href="{{asset('admin_assets/plugins/morris/morris.css')}}">
+    <link href=" {{asset('admin_assets/plugins/bootstrap-sweetalert/sweet-alert.css')}}" rel="stylesheet"
           type="text/css">
-    <link href="{{asset('public/admin_assets/plugins/summernote/summernote.css')}}" rel="stylesheet"/>
-    <link href="{{asset('public/admin_assets/plugins/custombox/css/custombox.css')}}" rel="stylesheet">
+    <link href="{{asset('admin_assets/plugins/summernote/summernote.css')}}" rel="stylesheet"/>
+    <link href="{{asset('admin_assets/plugins/custombox/css/custombox.css')}}" rel="stylesheet">
 
-    <link href="{{asset('public/admin_assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css"/>
-    <link href="{{asset('public/admin_assets/css/icons.css')}}" rel="stylesheet" type="text/css"/>
-    <link href="{{asset('public/admin_assets/css/style.css')}}" rel="stylesheet" type="text/css"/>
-    <link href="{{asset('public/admin_assets/plugins/bootstrap-table/css/bootstrap-table.min.css')}}"
+    <link href="{{asset('admin_assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('admin_assets/css/icons.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('admin_assets/css/style.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('admin_assets/plugins/bootstrap-table/css/bootstrap-table.min.css')}}"
           rel="stylesheet" type="text/css"/>
-    <script src="{{asset('public/admin_assets/js/modernizr.min.js')}}"></script>
+    <script src="{{asset('admin_assets/js/modernizr.min.js')}}"></script>
     <style>
         .modal-footer,.modal-header{
             border: none;
@@ -127,7 +127,7 @@
                     <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown"
                        href="#" role="button"
                        aria-haspopup="false" aria-expanded="false">
-                        <img src="{{asset('public/admin_assets/images/users/avatar-1.jpg')}}" alt="user"
+                        <img src="{{asset('admin_assets/images/users/avatar-1.jpg')}}" alt="user"
                              class="rounded-circle">
                     </a>
                     <div class="dropdown-menu dropdown-menu-right profile-dropdown " aria-labelledby="Preview">
@@ -279,7 +279,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-1.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-1.jpg')}}" alt="">
                         </div>
                         <span class="name">Chadengle</span>
                         <i class="fa fa-circle online"></i>
@@ -289,7 +289,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-2.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-2.jpg')}}" alt="">
                         </div>
                         <span class="name">Tomaslau</span>
                         <i class="fa fa-circle online"></i>
@@ -299,7 +299,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-3.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-3.jpg')}}" alt="">
                         </div>
                         <span class="name">Stillnotdavid</span>
                         <i class="fa fa-circle online"></i>
@@ -309,7 +309,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-4.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-4.jpg')}}" alt="">
                         </div>
                         <span class="name">Kurafire</span>
                         <i class="fa fa-circle online"></i>
@@ -319,7 +319,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-5.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-5.jpg')}}" alt="">
                         </div>
                         <span class="name">Shahedk</span>
                         <i class="fa fa-circle away"></i>
@@ -329,7 +329,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-6.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-6.jpg')}}" alt="">
                         </div>
                         <span class="name">Adhamdannaway</span>
                         <i class="fa fa-circle away"></i>
@@ -339,7 +339,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-7.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-7.jpg')}}" alt="">
                         </div>
                         <span class="name">Ok</span>
                         <i class="fa fa-circle away"></i>
@@ -349,7 +349,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-8.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-8.jpg')}}" alt="">
                         </div>
                         <span class="name">Arashasghari</span>
                         <i class="fa fa-circle offline"></i>
@@ -359,7 +359,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-9.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-9.jpg')}}" alt="">
                         </div>
                         <span class="name">Joshaustin</span>
                         <i class="fa fa-circle offline"></i>
@@ -369,7 +369,7 @@
                 <li class="list-group-item">
                     <a href="#">
                         <div class="avatar">
-                            <img src="{{asset('public/admin_assets/images/users/avatar-10.jpg')}}" alt="">
+                            <img src="{{asset('admin_assets/images/users/avatar-10.jpg')}}" alt="">
                         </div>
                         <span class="name">Sortino</span>
                         <i class="fa fa-circle offline"></i>
@@ -391,41 +391,41 @@
 </script>
 
 <!-- jQuery  -->
-<script src="{{asset('public/admin_assets/js/jquery.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/popper.min.js')}}"></script><!-- Popper for Bootstrap -->
-<script src="{{asset('public/admin_assets/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/detect.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/fastclick.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.slimscroll.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.blockUI.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/waves.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/wow.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.nicescroll.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.scrollTo.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/bootstrap-table/js/bootstrap-table.js')}}"></script>
-<script src="{{asset('public/admin_assets/pages/jquery.bs-table.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/moment/moment.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/peity/jquery.peity.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/popper.min.js')}}"></script><!-- Popper for Bootstrap -->
+<script src="{{asset('admin_assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/detect.js')}}"></script>
+<script src="{{asset('admin_assets/js/fastclick.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.slimscroll.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.blockUI.js')}}"></script>
+<script src="{{asset('admin_assets/js/waves.js')}}"></script>
+<script src="{{asset('admin_assets/js/wow.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.nicescroll.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.scrollTo.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/bootstrap-table/js/bootstrap-table.js')}}"></script>
+<script src="{{asset('admin_assets/pages/jquery.bs-table.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/moment/moment.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/peity/jquery.peity.min.js')}}"></script>
 
 <!-- jQuery  -->
-<script src="{{asset('public/admin_assets/plugins/dropzone/dropzone.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/tinymce/tinymce.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/dropzone/dropzone.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/tinymce/tinymce.min.js')}}"></script>
 
-<script src="{{asset('public/admin_assets/plugins/summernote/summernote.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/custombox/js/custombox.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/custombox/js/legacy.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/waypoints/lib/jquery.waypoints.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/counterup/jquery.counterup.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/summernote/summernote.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/custombox/js/custombox.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/custombox/js/legacy.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/waypoints/lib/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/counterup/jquery.counterup.min.js')}}"></script>
 
-<script src="{{asset('public/admin_assets/plugins/morris/morris.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/plugins/raphael/raphael-min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/morris/morris.min.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/raphael/raphael-min.js')}}"></script>
 
-<script src="{{asset('public/admin_assets/plugins/jquery-knob/jquery.knob.js')}}"></script>
+<script src="{{asset('admin_assets/plugins/jquery-knob/jquery.knob.js')}}"></script>
 
-<script src="{{asset('public/admin_assets/pages/jquery.dashboard.js')}}"></script>
+<script src="{{asset('admin_assets/pages/jquery.dashboard.js')}}"></script>
 
-<script src="{{asset('public/admin_assets/js/jquery.core.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.app.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.core.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.app.js')}}"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function ($) {

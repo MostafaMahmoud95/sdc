@@ -38,7 +38,7 @@
                 <div class="container">
 
                     <div style="display: flex; flex-direction: column-reverse;">
-                        <img src="{{URL::to('public/news/Scientific Diamond Lab/'.$news->image)}}" alt=""
+                        <img src="{{URL::to('news/Scientific Diamond Lab/'.$news->image)}}" alt=""
                              style="object-fit: cover;  height: 300px; width: 450px;">
                     </div>
                 </div>

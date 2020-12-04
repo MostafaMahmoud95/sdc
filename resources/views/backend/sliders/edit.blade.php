@@ -14,7 +14,7 @@
         <label for="image">Image</label><br>
         <input type="file" name="image" accept="image/*">
         <p class="text-danger">{{$errors->first('image')}}</p>
-        <img src="{{URL::to('public/sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="height: 200px; width: 200px;">
+        <img src="{{URL::to('sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="height: 200px; width: 200px;">
 
     </div>
 

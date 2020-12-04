@@ -21,10 +21,10 @@
     <link rel='stylesheet prefetch'
           href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css'>
     @if(App::isLocale('en'))
-        <link rel="stylesheet" href="{{asset('public/assets/css/style-english.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/style-english.css')}}">
 
     @else
-        <link rel="stylesheet" href="{{asset('public/assets/css/style-arabic.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/style-arabic.css')}}">
 
     @endif
 
@@ -37,7 +37,7 @@
     <div class="first-header">
         <div class="container">
             <div class="background-logo-2030-2" style="position: fixed;">
-                <img src="{{asset('public/assets/img/vision2030.png')}}" alt="">
+                <img src="{{asset('assets/img/vision2030.png')}}" alt="">
             </div>
             <div class="language-switch-2">
                 @if(App::isLocale('en'))
@@ -107,7 +107,7 @@
                 </ul>
             </div>
             <div class="background-main-logo" style="position: fixed;">
-                <img src="{{asset('public/assets/img/main-logo.png')}}" alt="">
+                <img src="{{asset('assets/img/main-logo.png')}}" alt="">
             </div>
 
         </div>
@@ -212,7 +212,7 @@
                         @foreach($three_news as $one_news)
                             <div class="news-paragraph">
                                 <a href="{{url('sdc/news/'.$one_news->slug)}}"><img
-                                            src="{{asset('public/news/Scientific Diamond Company/'.$one_news->image)}}"
+                                            src="{{asset('news/Scientific Diamond Company/'.$one_news->image)}}"
                                             alt=""></a>
                                 <p>
                                     @if(App::isLocale('ar'))
@@ -231,7 +231,7 @@
             </div>
             <div class="col-lg-3 col-md-12 logo-footer footer-align">
                 <div class="container">
-                    <img src="{{asset('public/assets/img/logo.png')}}" alt="">
+                    <img src="{{asset('assets/img/logo.png')}}" alt="">
                     <p>  @if(App::isLocale('ar')) {{$settings->intro_ar}} @else {{$settings->intro_en}} @endif</p>
                     <div class="social-media-icons icons-footer2">
                         <a href="{{$settings->facebook}}"><i class="fab fa-facebook-f"></i></a>

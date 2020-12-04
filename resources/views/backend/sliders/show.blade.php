@@ -32,11 +32,11 @@
                 <div class="card-box product-detail-box">
                     <div class="row">
                         <div class="col-sm-4">
-                        {{--    <div class="sp-loading"><img src="{{URL::to('public/sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="width: 500px; height: 500px;" alt=""><br>LOADING
+                        {{--    <div class="sp-loading"><img src="{{URL::to('sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="width: 500px; height: 500px;" alt=""><br>LOADING
                                 IMAGES
                             </div>--}}
                             <div class="sp-wrap">
-                                <a href="{{URL::to('public/sliders/'.$slider->department->title_en.'/'.$slider->image)}}"><img src="{{URL::to('public/sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="height: 500px; width: 1000px;" alt=""></a>
+                                <a href="{{URL::to('sliders/'.$slider->department->title_en.'/'.$slider->image)}}"><img src="{{URL::to('sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="height: 500px; width: 1000px;" alt=""></a>
                             </div>
                         </div>
 

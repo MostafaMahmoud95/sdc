@@ -70,7 +70,7 @@
                             <td>{{$job->department->title_en}}</td>
                             <td>{{$job->title_ar}}</td>
                             <td>{{$job->title_en}}</td>
-                            <td><img src="{{URL::to('public/jobs/'.$job->image)}}" style="width: 100px; height: 100px;"></td>
+                            <td><img src="{{URL::to('jobs/'.$job->image)}}" style="width: 100px; height: 100px;"></td>
                             <td>{{str_limit($job->intro_ar,$limit=50,$end='...')}}</td>
                             <td>{{str_limit($job->intro_en,$limit=50,$end='...')}}</td>
                             <td>{{str_limit($job->description_ar,$limit=50,$end='...')}}</td>

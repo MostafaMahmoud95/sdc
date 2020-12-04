@@ -28,7 +28,7 @@
         <label for="image">Image</label><br>
         <input type="file" name="image" accept="image/*">
         <p class="text-danger">{{$errors->first('image')}}</p>
-        <img src="{{URL::to('public/jobs/'.$job->image)}}" style="height: 100px; width: 100px;">
+        <img src="{{URL::to('jobs/'.$job->image)}}" style="height: 100px; width: 100px;">
     </div>
     <div class="form-group">
         <label for="intro_ar"> Intro Arabic</label>

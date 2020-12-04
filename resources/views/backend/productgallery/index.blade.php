@@ -57,7 +57,7 @@
                     @foreach($products_galleries as $product_gallery)
                         <tr>
                             <td>{{$product_gallery->product->title_en}}</td>
-                            <td><img src="{{URL::to('public/productsgalleries/'.$product_gallery->product_id.'/'.$product_gallery->image)}}" style="width: 100px; height: 100px;"></td>
+                            <td><img src="{{URL::to('productsgalleries/'.$product_gallery->product_id.'/'.$product_gallery->image)}}" style="width: 100px; height: 100px;"></td>
                             <td  style="text-align: center;"><a href="{{route('productsimages.show',$product_gallery->id)}}" class="btn btn-info" role="button">View</a>
                                 <a href="{{route('productsimages.edit',$product_gallery->id)}}" class="btn btn-warning" role="button">Edit</a>
                                 <button type="button" class="btn btn-danger" data-toggle="modal"

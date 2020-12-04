@@ -79,7 +79,7 @@
                             <td>{{$product->title_ar}}</td>
                             <td>{{$product->title_en}}</td>
                             <td>
-                                <img src="{{URL::to('public/products/'.$product->department->title_en.'/'.$product->image)}}"
+                                <img src="{{URL::to('products/'.$product->department->title_en.'/'.$product->image)}}"
                                      style="width: 100px; height: 100px;"></td>
                             <td>{{(str_limit($product->intro_ar,$limit=50,$end='...'))}}</td>
                             <td>{{(str_limit($product->intro_en,$limit=50,$end='...'))}}</td>

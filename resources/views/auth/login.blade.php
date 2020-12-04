@@ -6,15 +6,15 @@
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
 
-    <link rel="shortcut icon" href="{{asset('public/admin_assets/images/favicon_1.ico')}}">
+    <link rel="shortcut icon" href="{{asset('admin_assets/images/favicon_1.ico')}}">
 
     <title>Login</title>
 
-    <link href="{{asset('public/admin_assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('public/admin_assets/css/icons.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('public/admin_assets/css/style.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin_assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin_assets/css/icons.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('admin_assets/css/style.css')}}" rel="stylesheet" type="text/css" />
 
-    <script src="{{asset('public/admin_assets/js/modernizr.min.js')}}"></script>
+    <script src="{{asset('admin_assets/js/modernizr.min.js')}}"></script>
 
 </head>
 <body>
@@ -103,20 +103,20 @@
 </script>
 
 <!-- jQuery  -->
-<script src="{{asset('public/admin_assets/js/jquery.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/popper.min.js')}}"></script><!-- Popper for Bootstrap -->
-<script src="{{asset('public/admin_assets/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/detect.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/fastclick.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.slimscroll.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.blockUI.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/waves.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/wow.min.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.nicescroll.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.scrollTo.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/popper.min.js')}}"></script><!-- Popper for Bootstrap -->
+<script src="{{asset('admin_assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/detect.js')}}"></script>
+<script src="{{asset('admin_assets/js/fastclick.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.slimscroll.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.blockUI.js')}}"></script>
+<script src="{{asset('admin_assets/js/waves.js')}}"></script>
+<script src="{{asset('admin_assets/js/wow.min.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.nicescroll.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.scrollTo.min.js')}}"></script>
 
-<script src="{{asset('public/admin_assets/js/jquery.core.js')}}"></script>
-<script src="{{asset('public/admin_assets/js/jquery.app.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.core.js')}}"></script>
+<script src="{{asset('admin_assets/js/jquery.app.js')}}"></script>
 
 </body>
 </html>

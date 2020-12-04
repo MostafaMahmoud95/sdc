@@ -13,9 +13,9 @@
 
     <meta name="viewport" content="width=device-width">
     @if(App::isLocale('ar'))
-        <link rel="stylesheet" href="{{asset('public/assets/css/style-arabic.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/style-arabic.css')}}">
     @else
-        <link rel="stylesheet" href="{{asset('public/assets/css/style-english.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/style-english.css')}}">
 
     @endif
 </head>
@@ -24,10 +24,10 @@
 <div class="home-header">
     <div class="container">
         <div class="background-logo" style="position: fixed;">
-            <img src="{{asset('public/assets/img/logo.png')}}" alt="">
+            <img src="{{asset('assets/img/logo.png')}}" alt="">
         </div>
         <div class="background-logo-2030" style="position: fixed;">
-            <img src="{{asset('public/assets/img/vision2030.png')}}" alt="">
+            <img src="{{asset('assets/img/vision2030.png')}}" alt="">
         </div>
         <div class="language-switch">
             @if(App::isLocale('en'))
@@ -50,12 +50,12 @@
             <div class="main-home-content">
                 <a href="{{url('sdclab')}}">
                     <div class='hex hex-border'>
-                        <img src="{{asset('public/assets/img/logo3.png')}}" alt="">
+                        <img src="{{asset('assets/img/logo3.png')}}" alt="">
                     </div>
                 </a>
                 <a href="{{url('sdc')}}">
                     <div class='hex hex-border'>
-                        <img src="{{asset('public/assets/img/logo2.png')}}" alt="">
+                        <img src="{{asset('assets/img/logo2.png')}}" alt="">
                     </div>
                 </a>
             </div>
@@ -73,13 +73,13 @@
                 @foreach($sliders as $slider)
                     <?php $counter++; ?>
                     <div class="carousel-item  @if ($counter==1)  {{"active"}}@endif ">
-                        <img class="d-block w-100" src="{{asset('public/sliders/Home/'.$slider->image)}}"
+                        <img class="d-block w-100" src="{{asset('sliders/Home/'.$slider->image)}}"
                              alt="First slide">
                     </div>
                 @endforeach
             @endif
             {{--     <div class="carousel-item">
-                     <img class="d-block w-100" src="{{asset('public/assets/img/img2.png')}}" alt="Second slide">
+                     <img class="d-block w-100" src="{{asset('assets/img/img2.png')}}" alt="Second slide">
                  </div>--}}
         </div>
     </div>
@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-md-2 iso-social-media offset-english">
                     <div id="iso">
-                        <img src="{{asset('public/assets/img/iso.png')}}" alt="">
+                        <img src="{{asset('assets/img/iso.png')}}" alt="">
                     </div>
 
                     <div class="social-media-icons">
@@ -231,7 +231,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.bundle.min.js"
         integrity="sha384-VspmFJ2uqRrKr3en+IG0cIq1Cl/v/PHneDw6SQZYgrcr8ZZmZoQ3zhuGfMnSR/F2"
         crossorigin="anonymous"></script>
-<script src="{{asset('public/assets/js/script.js')}}">
+<script src="{{asset('assets/js/script.js')}}">
 
 
 </script>

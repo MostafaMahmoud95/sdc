@@ -57,7 +57,7 @@
                     @foreach($sliders as $slider)
                         <tr>
                             <td>{{$slider->department->title_en}}</td>
-                            <td> <img src="{{URL::to('public/sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="height: 200px; width: 200px;"></td>
+                            <td> <img src="{{URL::to('sliders/'.$slider->department->title_en.'/'.$slider->image)}}" style="height: 200px; width: 200px;"></td>
                             <td  style="text-align: center;"><a href="{{route('sliders.show',$slider->id)}}" class="btn btn-info" role="button">View</a>
                                 <a href="{{route('sliders.edit',$slider->id)}}" class="btn btn-warning" role="button">Edit</a>
                                 <button type="button" class="btn btn-danger" data-toggle="modal"

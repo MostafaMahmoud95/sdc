@@ -65,7 +65,7 @@
                             <td>{{$one_news->department->title_en}}</td>
                             <td>{{$one_news->title_ar}}</td>
                             <td>{{$one_news->title_en}}</td>
-                            <td><img src="{{URL::to('public/news/'.$one_news->department->title_en.'/'.$one_news->image)}}" style="height: 100px; width: 100px;"></td>
+                            <td><img src="{{URL::to('news/'.$one_news->department->title_en.'/'.$one_news->image)}}" style="height: 100px; width: 100px;"></td>
                             <td>{{(str_limit($one_news->intro_ar,$limit=50,$end='...'))}}</td>
                             <td>{{(str_limit($one_news->intro_en,$limit=50,$end='...'))}}</td>
                             <td>{{(str_limit($one_news->description_ar,$limit=50,$end='...'))}}</td>

@@ -47,7 +47,7 @@
                             <td>{{$request->email}}</td>
                             <td>{{$request->phone}}</td>
                             <td>{{str_limit($request->message,$limit=50,$end='...')}}</td>
-                            <td><a href="{{ url('public/cvs/'.$request->cv) }}" target="_blank">Download CV</a></td>
+                            <td><a href="{{ url('cvs/'.$request->cv) }}" target="_blank">Download CV</a></td>
                             <td style="text-align: center;"><a href="{{route('jobrequests.show',$request->id)}}"
                                                                class="btn btn-info" role="button">View</a>
 

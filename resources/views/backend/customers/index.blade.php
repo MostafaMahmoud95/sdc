@@ -66,7 +66,7 @@
                             <td>{{$customer->department->title_en}}</td>
                             <td>{{$customer->title_en}}</td>
                             <td>{{$customer->title_ar}}</td>
-                            <td><img src="{{URL::to('public/customers/'.$customer->department->title_en.'/'.$customer->image)}}" style="width: 100px; height: 100px;"></td>
+                            <td><img src="{{URL::to('customers/'.$customer->department->title_en.'/'.$customer->image)}}" style="width: 100px; height: 100px;"></td>
                             <td>{{$customer->link}}</td>
                             <td style="text-align: center;"><a href="{{route('customers.show',$customer->id)}}"
                                                                class="btn btn-info" role="button">View</a>

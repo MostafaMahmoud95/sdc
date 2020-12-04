@@ -13,7 +13,7 @@
         <label for="image">Image</label><br>
         <input type="file" name="image" accept="image/*" >
         <p class="text-danger">{{$errors->first('image')}}</p>
-        <img src="{{URL::to('public/productsgalleries/'.$product_gallery->product_id.'/'.$product_gallery->image)}}" style="height: 100px; width: 100px;">
+        <img src="{{URL::to('productsgalleries/'.$product_gallery->product_id.'/'.$product_gallery->image)}}" style="height: 100px; width: 100px;">
 
 
     </div>

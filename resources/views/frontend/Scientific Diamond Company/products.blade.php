@@ -28,7 +28,7 @@
                             <a href="{{url('sdc/products/'.$product->slug)}}">
                                 <div class="card" style="width: 18rem;">
                                     <img class="card-img-top"
-                                         src="{{URL::to('public/products/Scientific Diamond Company/'.$product->image)}}"
+                                         src="{{URL::to('products/Scientific Diamond Company/'.$product->image)}}"
                                          alt="">
                                     <div class="card-body">
                                         <h5 class="card-title">

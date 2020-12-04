@@ -27,7 +27,7 @@
                         <div class="col-lg-4 col-md-12">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top"
-                                     src="{{URL::to('public/services/Scientific Diamond Lab/'.$service->image)}}"
+                                     src="{{URL::to('services/Scientific Diamond Lab/'.$service->image)}}"
                                      alt="">
                                 <div class="card-body">
                                     <h5 class="card-title">

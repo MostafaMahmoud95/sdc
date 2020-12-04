@@ -28,7 +28,7 @@
                             <div class="card" style="width: 18rem;">
                                 <a href="@if($partner->link !=NULL){{$partner->link}}@else # @endif"> <img
                                             class="card-img-top"
-                                            src="{{URL::to('public/partners/Scientific Diamond Lab/'.$partner->image)}}"
+                                            src="{{URL::to('partners/Scientific Diamond Lab/'.$partner->image)}}"
                                             style="height: 190px; width: 286px;"
                                             alt="">
                                 </a>

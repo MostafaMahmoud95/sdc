@@ -81,7 +81,7 @@
                             <td>{{$service->title_ar}}</td>
                             <td>{{$service->title_en}}</td>
                             <td>
-                                <img src="{{URL::to('public/services/'.$service->department->title_en.'/'.$service->image)}}"
+                                <img src="{{URL::to('services/'.$service->department->title_en.'/'.$service->image)}}"
                                      style="height: 100px; width: 100px;"></td>
                             <td>{{(str_limit($service->intro_ar,$limit=50,$end='...'))}}</td>
                             <td>{{(str_limit($service->intro_en,$limit=50,$end='...'))}}</td>
