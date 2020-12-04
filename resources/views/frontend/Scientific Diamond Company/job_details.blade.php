@@ -31,7 +31,7 @@
         <div class="container">
             <div class="row">
                 <div class="card mx-auto job-details-card">
-                    <img class="card-img-top jobs-image job-details-image" src="./assets/img/building.png" alt="">
+                    <img class="card-img-top jobs-image job-details-image" src="{{URL::to('jobs/'.$job->image)}}" alt="">
                     <div class="card-body job-card-body">
                         <h5 class="card-title"> @if(App::isLocale('en'))  {{$job->title_en}} @else {{$job->title_ar}} @endif</h5>
                         <h6 class="card-title">  @if(App::isLocale('en'))  {{$job->location_en}} @else {{$job->location_ar}} @endif</h6>
